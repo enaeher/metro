@@ -1,0 +1,50 @@
+<!--#include virtual="header.htmlf" -->
+      <div class="text-block primary-column" id="about">
+	<img class="title" src="aboutus.png" alt="about m c &amp; d">
+	<p>	  
+	  <img class="drop-cap" src="a.png" alt="drop cap a">
+	  t Metropolitan Code &amp; Data, we bring many years&rsquo; experience with web technologies to bear in solving your problems by designing simple, straightforward systems built on standard, proven tools &amp; platforms.
+	</p>
+	<p>	  
+	  Open platforms such as <a href="http://www.gnu.org/"><acronym title="GNU's Not Unix">GNU</acronym></a>/<a href="http://www.linux-foundation.org/">Linux</a>, <a href="http://common-lisp.net">Common Lisp</a>, <a href="http://www.perl.org/"><acronym title="Practical Extraction and Reporting Language, or, Pathologically Eclectic Rubbish Lister">Perl</acronym></a>, <a href="http://www.w3.org/Style/XSL/"><acronym title="eXtensible Stylesheet Language Transformations">XSLT</acronym></a>, Javascript, <a href="http://www.postgresql.org">Postgre<acronym title="Simple Query Language">SQL</acronym></a>, and web standards including (<a href="http://www.w3.org/TR/xhtml11/"><acronym title="eXtensible HyperText Markup Language">X</acronym></a>)<a href="http://www.w3.org/TR/REC-html40/"><acronym title="HyperText Markup Language">HTML</acronym></a>, <a href="http://www.w3.org/XML/"><acronym title="exTensible Markup Language">XML</acronym></a>, and <a href="http://www.w3.org/Style/CSS/"><acronym title="Cascading Style Sheets">CSS</acronym></a>, provide us with the foundation on which we can deliver maintainable, usable, and useful systems with the minimum possible fuss.
+	</p>
+	<p>
+	  We hope you will enjoy the projects posted here. If you think we might be able to help you with yours, <a href="mailto:info@codeanddata.com">let us know</a>.
+	</p>
+<!--
+	<p class="signature">
+	  &mdash; Eli Naeher<br>Proprietor
+	</p>
+-->
+
+	<div class="more-button">&rarr; <a href="mailto:info@m-c-and-d.com">send us mail</a></div>
+      </div>
+
+      <div class="text-block" id="toc">
+	<a class="image-link logo-link" href="."><img id="logotype" src="logotype.png" alt="metropolitan code &amp; data"></a>
+	<ul>
+	  <li><a href=".">Front Page</a>
+	    <ul>
+	      <li>About Us &larr; (you are here)
+	      </li>
+	      <li>Laboratory
+		<ul>
+		  <li><a href="http://newsstream.codeanddata.com">Newsstream</a>
+		    <ul>
+		      <li><a href="newsstream-details">Details</a></li>
+		    </ul>
+		  </li>
+<!--
+		  <li><a href="elections">U.S. Election Money, Visualized</a></li>
+		  <li><a href="mail">Mnemosyne</a></li>
+-->
+		</ul>
+	      </li>
+	      <li><a href="colophon">Colophon</a></li>
+	    </ul>
+	  </li>
+	</ul>
+	<div class="more-button">&rarr; <a href=".">up to front page</a></div>
+      </div>
+
+<!--#include virtual="footer.htmlf" -->

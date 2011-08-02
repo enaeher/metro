@@ -1,0 +1,47 @@
+<!--#include virtual="header.htmlf" -->
+      <div class="text-block primary-column" id="about">
+	<img class="title" src="aboutus.png" alt="about m c &amp; d">
+	<p>	  
+	  <img class="drop-cap" src="w.png" alt="drop cap w">
+	  hy Python is not my favorite programming language:
+	</p>
+	<p>
+	<code>
+>>> quit<br>
+Use quit() or Ctrl-D (i.e. EOF) to exit<br>
+>>>
+	</code>
+	</p>
+	<p>
+	  Well, fuck you too, Van Rossum.
+	</p>
+      </div>
+
+      <div class="text-block" id="toc">
+	<a class="image-link logo-link" href="."><img id="logotype" src="logotype.png" alt="metropolitan code &amp; data"></a>
+	<ul>
+	  <li><a href=".">Front Page</a>
+	    <ul>
+	      <li>About Us &larr; (you are here)
+	      </li>
+	      <li>Laboratory
+		<ul>
+		  <li><a href="http://newsstream.codeanddata.com">Newsstream</a>
+		    <ul>
+		      <li><a href="newsstream-details">Details</a></li>
+		    </ul>
+		  </li>
+<!--
+		  <li><a href="elections">U.S. Election Money, Visualized</a></li>
+		  <li><a href="mail">Mnemosyne</a></li>
+-->
+		</ul>
+	      </li>
+	      <li><a href="colophon">Colophon</a></li>
+	    </ul>
+	  </li>
+	</ul>
+	<div class="more-button">&rarr; <a href=".">up to front page</a></div>
+      </div>
+
+<!--#include virtual="footer.htmlf" -->

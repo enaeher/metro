@@ -1,0 +1,210 @@
+/* General styles */
+
+html {  height: 100%;  }
+
+body {
+  background-color: #fbfaf3;
+  background-color: #1a1a17;
+  margin: 0;
+  height: 50%;
+}      
+
+#content {
+  width: 650px;
+  height: 100%;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* General text block information */
+
+div.text-block {
+  color: #fbfaf3;
+  width: 47%;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+div.text-block p {
+  margin: 0;
+  margin-bottom: 2em;
+  text-align: justify;
+  line-height: 22px;
+}
+
+/* Link styles */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+  /* color: #ffd90b; */
+  color: #ffc90b;
+  /* color: inherit; */
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+.more-button {
+  float: right;
+}
+
+/* Logotype */
+
+.text-block #logotype {
+  position: absolute;
+  right: 0;
+  top: -99px;
+}
+
+a.logo-link {
+  float: right;
+  height: 0;
+}
+
+/* Drop caps */
+
+img.drop-cap {
+  float: left;
+  padding-right: 5px;
+}
+
+/* Main content column */
+
+div.primary-column {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Front Page */
+
+div#front-matter {
+  top: 0;
+  right: 0;      
+}
+
+div#etc {
+  right: 0;
+  bottom: 0;
+}
+
+div#etc p {
+  text-align: right;
+  margin: 0;
+}
+
+/* Project screenshot links */
+
+div.text-block a.project-link {
+  display: block;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+a img {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+img.brace {
+  position: absolute;
+  left: -100px;
+  display: none;
+  width: 100px;
+}      
+
+div.text-block a.project-link:hover {
+  background-color: transparent;
+}
+
+div.text-block a.project-link:hover .brace {
+  display: block;
+}
+
+/* Table of Contents (on all but front page) */
+
+div#toc {
+  top: 0;
+  right: 0;
+  height: 67.334%;
+}
+
+#toc ul {
+  margin: 0;
+  margin-left: 1em;
+  padding-left: 1em;
+  margin-bottom: 2em;
+  list-style: none;
+  padding: 0;
+}
+
+#toc ul ul { 
+  margin-bottom: 0;
+}
+
+#toc ul a { 
+  display: block;
+}
+
+#toc li:last-child { 
+  border-left: 2px solid transparent;
+}
+
+#toc li { 
+  border-left: 2px solid white;
+  padding: 0;
+  margin: 0;
+  padding-left: 14px;
+  line-height: 22px;
+  background-image: url('tree-bit.png');
+  background-repeat: no-repeat;
+  background-position: -2px top;
+  text-transform: lowercase;
+}
+
+#toc li a { 
+  position: relative;
+  left: -3px;
+}
+
+/* About Page */
+
+div.text-block p.signature {
+  text-align: right;
+}
+
+/* Text block titles */
+ 
+
+.title { 
+  position: absolute;
+}
+
+#etc .title,
+#toc .title,
+#front-matter .title {
+  left: 340px; /* for labels in the right column (305px column width + 25px gap).
+                  By doing it this we, it doesn't matter how wide the image is. (Storing
+                  the image in a div with fixed width and overflow: visible is another
+                  way to go about this, but this simplifies the DOM.)*/
+}
+
+div.primary-column .title {
+  right: 340px; /* for labels in the left column */  
+}
+
+div#etc .title {
+  bottom: 0;
+}
+
+/* -30- */

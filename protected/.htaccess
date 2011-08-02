@@ -1,0 +1,8 @@
+AuthUserFile /home/eli/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Metropolitan Code and Data"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>

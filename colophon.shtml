@@ -1,0 +1,36 @@
+<!--#include virtual="header.htmlf" -->
+
+      <div class="text-block primary-column" id="colophon">
+	<img class="title" src="colophon_.png" alt="colophon">
+	<p>	  
+	  <img class="drop-cap" src="t.png" alt="drop cap t">
+	  his site was created with <a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> 22.1.1 and <a href="http://www.gimp.org/">GIMP</a> 2.4 on <a href="http://www.debian.org">Debian GNU/Linux</a>. The title face is Century Gothic, created for Monotype in 1991 and inspired by <a href="http://www.linotype.com/159720/twentiethcentury-family.html">Twentieth Century</a> and <a href="http://www.linotype.com/472/futura-family.html">Futura</a>. The markup follows <a href="http://www.w3.org/TR/REC-html40/">HTML 4.01</a> (<a href="http://hixie.ch/advocacy/xhtml">rationale</a>) and is styled in accordance with the <a href="http://www.w3.org/Style/CSS/current-work">CSS 3</a> working draft.
+	</p>
+      </div>
+
+      <div class="text-block" id="toc">
+	<a class="image-link logo-link" href="."><img id="logotype" src="logotype.png" alt="metropolitan code &amp; data"></a>
+	<ul>
+	  <li><a href=".">Front Page</a>
+	    <ul>
+	      <li><a href="about">About Us</a></li>
+	      <li>Laboratory
+		<ul>
+		  <li><a href="http://newsstream.codeanddata.com">Newsstream</a>
+		    <ul>
+		      <li><a href="newsstream-details">Details</a></li>
+		    </ul>
+		  </li>
+<!--		  <li><a href="elections">U.S. Election Money, Visualized</a></li>
+		  <li><a href="mail">Mnemosyne</a></li>
+-->
+		</ul>
+	      </li>
+	      <li>Colophon &larr; (you are here)</li>
+	    </ul>
+	  </li>
+	</ul>
+	<div class="more-button">&rarr; <a href=".">up to front page</a></div>
+      </div>
+
+<!--#include virtual="footer.htmlf" -->

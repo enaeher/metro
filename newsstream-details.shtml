@@ -1,0 +1,52 @@
+<!--#include virtual="header.htmlf" -->
+      <div class="text-block primary-column" id="about">
+	<img class="title" src="newsstream-text.png" alt="newsstream">
+	<p>	  
+	  <img class="drop-cap" src="n.png" alt="drop cap n">
+	  ewsstream is an attempt to convey visually the changeable attentions of the news media. Like Marcos Weskamp's <a href="http://marumushi.com/apps/newsmap/">Newsmap</a>, it relies on the clustering of similar stories across media outlets performed by <a href="http://news.google.com">Google News</a>. It shows changes from day to day and is updated daily at around 2:30 PM Central Time; the height of a cluster's rectangle on a given day represents the number of stories in that cluster as a percentage of total stories in the Google News feed at that time.
+	</p>
+	<a href="http://newsstream.codeanddata.com" class="project-link">
+	  <img class="brace" src="brace.png" alt="newsstream">
+	  <img src="newsstream.png" alt="screenshot of newsstream project">
+	</a>
+	<p>
+	  You'll notice that the clusters Google has chosen as &ldquo;Top Stories&rdquo; are not necessarily, or even often, those with the most stories; presumably Google News uses more sophisticated metrics than are exposed to you and I. (Allow me to take this opportunity to implore the good people at Google to make available some of the building blocks of Google News to the rest of the world via an API.)
+	</p>
+	<p>
+	  Newsstream is written in Common Lisp, demonstrating that you really can write Perl in any language. Client-side, it uses SVG (Scalable Vector Graphics) and requires one of the many excellent, free browsers with native SVG support, including but not limited to <a href="http://www.mozilla.com/">Mozilla Firefox</a>, <a href="http://www.apple.com/safari/">Safari</a>, and <a href="http://www.opera.com/">Opera</a>. Internet Explorer does not support SVG at this time, and the end-of-lifed Adobe SVG Plugin is insufficiently conformant to render Newsstream with any degree of fidelity.
+	</p>
+	<p>
+	  Any and all feedback or suggestions are welcome at <a href="mailto:eli@codeanddata.com">eli@codeanddata.com</a> (<a href="pgp.txt">PGP public key</a>). 
+	</p>
+	<p class="signature">
+	  &mdash; Eli Naeher
+	</p>
+      </div>
+
+      <div class="text-block" id="toc">
+	<a class="image-link logo-link" href="."><img id="logotype" src="logotype.png" alt="metropolitan code &amp; data"></a>
+	<ul>
+	  <li><a href=".">Front Page</a>
+	    <ul>
+	      <li><a href="about">About Us</a></li>
+	      <li>Laboratory
+		<ul>
+		  <li><a href="http://newsstream.codeanddata.com">Newsstream</a>
+		    <ul>
+		      <li>Details &larr; (you are here)</li>
+		    </ul>
+		  </li>
+<!--
+		  <li><a href="elections">U.S. Election Money, Visualized</a></li>
+		  <li><a href="mail">Mnemosyne</a></li>
+-->
+		</ul>
+	      </li>
+	      <li><a href="colophon">Colophon</a></li>
+	    </ul>
+	  </li>
+	</ul>
+	<div class="more-button">&rarr; <a href=".">up to front page</a></div>
+      </div>
+
+<!--#include virtual="footer.htmlf" -->

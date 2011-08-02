@@ -1,0 +1,37 @@
+<!--#include virtual="header.htmlf" -->
+      <div class="text-block primary-column" id="projects">
+	<img class="title" src="ofnote.png" alt="of note">
+	<p>	  
+	  <img class="drop-cap" src="o.png" alt="drop cap o">
+	  ur visualization of the news cycle lets you watch the changing quantity of coverage given to stories over time (SVG required). 
+	</p>
+	<a href="http://newsstream.codeanddata.com" class="project-link">
+	  <img class="brace" src="brace.png" alt="newsstream">
+	  <img src="newsstream.png" alt="screenshot of newsstream project">
+	</a>
+      </div>
+
+      <div class="text-block" id="front-matter">
+	<img id="logotype" src="logotype.png" alt="metropolitan code &amp; data">
+	<img class="title" src="front-matter.png" alt="front matter">
+	<p>
+	  <img class="drop-cap" src="w.png" alt="drop cap w">
+	  e are consulting web engineers specializing in usable, high-quality systems and user interfaces built on web standards and open technology. This is where we hang our hat.
+	</p>
+	<div class="more-button">&rarr; <a href="about">read more</a></div>
+      </div>
+
+      <div class="text-block" id="etc">
+	<img class="title" src="etc.png" alt="&amp;c.">
+	<div class="bottom-aligned">
+	  <p>
+	    MC&amp;D<br>
+	    Chicago, Illinois<br>
+	    <a href="mailto:info@codeanddata.com">info@codeanddata.com</a><br>
+	  </p>
+	  <p>
+	    <a href="http://validator.w3.org/check/referer">Valid HTML</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fcodeanddata.com%2Fmain.css&amp;profile=css3">Valid CSS</a>
+	  </p>	  
+	</div>
+      </div>
+<!--#include virtual="footer.htmlf" -->
