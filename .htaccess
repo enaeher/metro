@@ -1,0 +1,7 @@
+Options +FollowSymLinks +Includes
+DirectoryIndex index.shtml
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml
+AddDefaultCharset utf-8
+RewriteEngine On
+RewriteRule ^([\-a-z]+)$ $1.shtml
